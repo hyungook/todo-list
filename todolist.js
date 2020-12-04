@@ -40,6 +40,7 @@ function createItem(text) {
   id++;
   return itemRow;
 }
+
 addBtn.addEventListener("click", () => {
   onAdd();
 });
