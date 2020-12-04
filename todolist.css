@@ -31,9 +31,9 @@ body {
   background: rgb(20, 12, 156);
   background: linear-gradient(
     90deg,
-    rgba(20, 12, 156, 1) 0%,
+    rgb(43, 36, 162) 0%,
     rgba(63, 135, 205, 1) 40%,
-    rgba(0, 59, 255, 1) 100%
+    rgb(42, 59, 193) 100%
   );
   border-radius: 20px 20px 0 0;
   color: #fff;
@@ -65,9 +65,9 @@ body {
   background: rgb(20, 12, 156);
   background: linear-gradient(
     90deg,
-    rgba(20, 12, 156, 1) 0%,
+    rgb(43, 36, 162) 0%,
     rgba(63, 135, 205, 1) 40%,
-    rgba(0, 59, 255, 1) 100%
+    rgb(42, 59, 193) 100%
   );
   border-radius: 0 0 20px 20px;
 }

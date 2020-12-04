@@ -38,30 +38,7 @@ function createItem(text) {
       <div class="item__divider"></div>
     </li>
   `;
-
-  // const item = document.createElement("div");
-  // item.setAttribute("class", "item");
-
-  // const name = document.createElement("span");
-  // name.setAttribute("class", "item__name");
-  // name.innerText = text;
-
-  // const deleteBtn = document.createElement("button");
-  // deleteBtn.setAttribute("class", "item__delete");
-  // deleteBtn.innerHTML = '<i class="fas fa-trash-alt"></i>';
-  // deleteBtn.addEventListener("click", () => {
-  //   itmes.removeChild(itemRow);
-  // });
-
-  // const itemDivider = document.createElement("div");
-  // itemDivider.setAttribute("class", "item__divider");
-
-  // item.appendChild(name);
-  // item.appendChild(deleteBtn);
-
-  // itemRow.appendChild(item);
-  // itemRow.appendChild(itemDivider);
-
+  
   id++;
   return itemRow;
 }
@@ -84,5 +61,6 @@ itmes.addEventListener("click", (event) => {
   if (id) {
     const toBeDeleted = document.querySelector(`.item__row[data-id="${id}"]`);
     toBeDeleted.remove();
+    console.log("hehe");
   }
 });
