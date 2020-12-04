@@ -5,14 +5,12 @@
 ul {
   padding: 0;
 }
-
 button {
   outline: none;
   background: transparent;
   border: none;
   cursor: pointer;
 }
-
 body {
   background-color: #ced3df;
   text-align: center;

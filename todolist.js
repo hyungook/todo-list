@@ -20,7 +20,6 @@ function onAdd() {
   input.value = "";
   input.focus();
 }
-
 let id = 0; // UUID(유니크 아이디가 좋음)
 function createItem(text) {
   const itemRow = document.createElement("li");
@@ -38,7 +37,6 @@ function createItem(text) {
       <div class="item__divider"></div>
     </li>
   `;
-  
   id++;
   return itemRow;
 }
